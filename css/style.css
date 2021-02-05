@@ -13,45 +13,65 @@ body {
 
 header {
     padding: 10px 10px 10px 20px;
-    background-color: #4DA8DA;
-    border-radius: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px 35px;
+    background-color: #4da8da;
 }
 
 .content {
     display: flex;
 }
 
-.column {
-    padding: 10px 20px 10px 0;
-}
-
 .left {
     flex: 15%;
+    margin-right: 15px;
 }
 
 .right {
     flex: 85%;
 }
 
-.left > ul {
+.col {
+    margin-top: 10px;
+}
+
+.left ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color:#4DA8DA;
-    border-radius: 10px;
 }
 
-.left > ul > li > a {
+.left li:nth-child(odd) {
     display: block;
-    color: white;
+    border-radius: 5px 15px;
     padding: 15px;
-    text-decoration: none;
+    color: white;
+    background-color:#4da8da;
 }
 
-.left > ul > li > a:hover {
+.left li:nth-child(even) {
+	display: block;
+    border-radius: 5px 15px;
+    padding: 15px;
+    color: white;
+    background-color:#36a1db;
+}
+
+.left li:hover {
+	background-color: #2789be;
+}
+
+.left a {
+	color: white;
+	text-decoration: none;
+}
+
+.left a:hover {
     text-decoration: underline;
 }
 
-.right > p {
+.right p {
     margin: 0;
+    text-align: right;
+    font-size: 20px;
 }
