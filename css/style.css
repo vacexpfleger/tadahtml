@@ -50,7 +50,7 @@ header {
 }
 
 .left li:nth-child(even) {
-	display: block;
+    display: block;
     border-radius: 5px 15px;
     padding: 15px;
     color: white;
@@ -58,12 +58,12 @@ header {
 }
 
 .left li:hover {
-	background-color: #2789be;
+    background-color: #2789be;
 }
 
 .left a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .left a:hover {
@@ -71,12 +71,12 @@ header {
 }
 
 .heading {
-	margin: 0 20px 15px 0;
-	text-align: right;
+    margin: 0 20px 15px 0;
+    text-align: right;
 }
 
 .right p {
     margin: 0;
-	text-align: right;
+    text-align: right;
     font-size: 15px;
 }
